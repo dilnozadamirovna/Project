@@ -1,0 +1,98 @@
+
+.travel-calendar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+  }
+  
+ 
+  .image-section {
+    flex: 1;
+    position: relative;
+    
+  }
+  
+  .background-image {
+    width: 1000px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .calendar-section {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    z-index: 10;
+  }
+  
+  .calendar-title {
+    font-size: 18px;
+    color: #007aff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ 
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-month {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .calendar-nav {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #007aff;
+  }
+  
+  /* Calendar Grid */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .calendar-day {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .calendar-date {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+  }
+  
+  .calendar-time {
+    font-size: 10px;
+    color: #777;
+    margin-top: 5px;
+  }
+  

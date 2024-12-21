@@ -1,0 +1,79 @@
+.big{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+width: 100%;
+}
+.part1{
+    width: 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 40px;
+}
+.part3{
+    width: 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 40px;
+}
+
+
+.imgLit1{
+    width: 504px;
+    height: 280px;
+    margin: 6px;
+    border-radius: 10px;
+}
+.imgOne{
+    width: 216px;
+    height: 263px;
+    margin: 6px;
+    border-radius: 10px;
+}
+.imgTwo{
+    width: 266px;
+    height: 123px;
+    margin: 6px;
+    border-radius: 10px;
+}
+.little2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.little3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imgPart{
+    width: 376px;
+    height: 560px;
+    margin: 6px;
+    border-radius: 10px;
+}
+.imgTwo3{
+    width: 266px;
+    height: 263px;
+    margin: 6px;
+    border-radius: 10px;
+}
+.imgTwo4{
+    width: 216px;
+    height: 263px;
+    margin: 6px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+.imgLit4{
+    width: 503px;
+    height: 270px;
+    margin: 6px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.gal-title{
+    color:  rgb(44, 115, 182);
+    margin-left: 50px;
+}
+.main{
+    margin-top: 150px;
+}
+

@@ -1,0 +1,28 @@
+.t1{
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.t1 h3{
+    font-size: 30px;
+    color: yellow;
+}
+.t1 h1{
+    font-size: 60px;
+}
+.blue1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+    padding: 12px 24px;
+    border-radius: 50px; 
+    background: linear-gradient(to right, #00c6ff, #0072ff); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 80px;
+}

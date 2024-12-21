@@ -1,0 +1,68 @@
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    margin-top: 10px;
+}
+.trip{
+   margin-top: 1000px;
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    width: 600px;
+    margin-left: 30px;
+}
+.name h3{
+    color: rgb(44, 115, 182);
+}
+.bottom{
+    text-align: center;
+    margin-top: 150px;
+    width: 600px;
+    margin: 0 auto;
+}
+.btn1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+    padding: 12px 24px;
+    border-radius: 50px; 
+    background: linear-gradient(to right, #00c6ff, #0072ff); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}

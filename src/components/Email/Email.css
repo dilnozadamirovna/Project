@@ -1,0 +1,42 @@
+.email{
+    width: 100%;
+    height: 640px;
+    text-align: center;
+    margin-top: 100px;
+}
+.input{
+    width: 50%;
+    height: 702px;
+    background: rgba(0, 0, 0, 0.8);
+    float: right;
+    color: white;
+}
+.y2{
+    color: white;
+}
+.yellow{
+    color: yellow;
+}
+input{
+border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 10px;
+}
+.inputdiv{
+    margin: 50px;
+    margin-top: 200px;
+}
+.submit{
+    border: none;
+    margin-top: 50px;
+    float: left;
+    margin-left: 60px;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(44, 115, 182);
+    color: white;
+}

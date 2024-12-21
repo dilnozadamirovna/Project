@@ -1,0 +1,81 @@
+
+
+.tap-navigation  {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .tab.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .filter {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 16px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .show-button {
+    background: linear-gradient(to right, #007bff, #00c1d4);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .show-button:hover {
+    background: linear-gradient(to right, #005bbf, #009ea3);
+  }
+  
