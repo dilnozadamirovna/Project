@@ -1,5 +1,5 @@
 
-import "./gallery.css";
+import "./Gallery.css";
 
 // Images (import your images here)
 import gal1 from "./gal1.png";
