@@ -40,3 +40,79 @@ border: none;
     background-color: rgb(44, 115, 182);
     color: white;
 }
+@media (max-width: 600px) {
+    .email {
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .input {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .inputdiv {
+        margin: 20px;
+        margin-top: 50px;
+    }
+
+    .submit {
+        float: none;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+/* Medium screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .email {
+        height: 500px;
+        margin-top: 70px;
+    }
+
+    .input {
+        width: 70%;
+        height: auto;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .inputdiv {
+        margin: 30px;
+        margin-top: 100px;
+    }
+
+    .submit {
+        float: none;
+        margin: 30px auto;
+        display: block;
+    }
+}
+
+/* Large screens (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .email {
+        height: 640px;
+    }
+
+    .input {
+        width: 50%;
+        height: 702px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .submit {
+        float: left;
+        margin-left: 60px;
+    }
+}

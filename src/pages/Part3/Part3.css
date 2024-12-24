@@ -126,4 +126,72 @@
     background: #007bff;
     color: #fff;
   }
-  
+  @media (max-width: 768px) {
+    .tours-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .filtersPar {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .tours-list {
+        width: 100%;
+    }
+
+    .tour-card {
+        flex-direction: column;
+    }
+
+    .tour-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .tour-details {
+        padding: 10px;
+    }
+
+    .tour-info {
+        flex-direction: column;
+    }
+
+    .pagination {
+        flex-direction: column;
+    }
+
+    .pagination button {
+        margin: 5px 0;
+    }
+}
+
+/* For Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .filtersPar {
+        padding: 10px;
+    }
+
+    .tours-container {
+        padding: 10px;
+    }
+
+    .tour-card img {
+        width: 100%;
+    }
+
+    .tour-info {
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .pagination button {
+        padding: 5px 8px;
+    }
+
+    .tour-button {
+        padding: 8px;
+        font-size: 12px;
+    }
+}

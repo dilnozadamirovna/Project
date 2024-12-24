@@ -72,3 +72,140 @@ a{
     margin-left: 8px; 
     font-size: 20px;
   }
+  @media (max-width: 600px) {
+    .head2 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .icon1 {
+        margin-top: 50px;
+    }
+
+    a {
+        margin-right: 0;
+    }
+
+    .text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .h11 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .h12 {
+        font-size: 32px;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .h13 {
+        font-size: 48px;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .blue {
+        margin-top: 50px;
+        margin-left: 0;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .blue span {
+        font-size: 16px;
+    }
+}
+
+/* Medium screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .head2 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 80px;
+    }
+
+    .icon1 {
+        margin-top: 80px;
+    }
+
+    a {
+        margin-right: 100px;
+    }
+
+    .text {
+        margin-left: 100px;
+    }
+
+    .h11 {
+        font-size: 56px;
+    }
+
+    .h12 {
+        font-size: 48px;
+        left: 200px;
+    }
+
+    .h13 {
+        font-size: 72px;
+    }
+
+    .blue {
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+
+    .blue span {
+        font-size: 18px;
+    }
+}
+
+/* Large screens (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .head2 {
+        flex-direction: row;
+        margin-top: 120px;
+    }
+
+    .icon1 {
+        margin-top: 100px;
+    }
+
+    a {
+        margin-right: 250px;
+    }
+
+    .text {
+        margin-left: 200px;
+    }
+
+    .h11 {
+        font-size: 72px;
+    }
+
+    .h12 {
+        font-size: 64px;
+        left: 390px;
+    }
+
+    .h13 {
+        font-size: 96px;
+    }
+
+    .blue {
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    .blue span {
+        font-size: 20px;
+    }
+}

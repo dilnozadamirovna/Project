@@ -66,3 +66,60 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 }
+@media (max-width: 768px) {
+    .block, .block5, .block1, .block2, .block3, .block4 {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .name {
+      width: 100%; /* Take full width */
+      margin-left: 0; /* Remove margin for smaller screens */
+    }
+  
+    .bottom {
+      width: 90%; /* Reduce width on smaller screens */
+      margin-top: 100px;
+    }
+  
+    .btn1 {
+      font-size: 16px; /* Smaller button text */
+      padding: 10px 20px; /* Adjust button padding */
+    }
+  
+    .icon2 {
+      width: 50px; /* Smaller icon size */
+      height: 50px; 
+      margin-top: 5px; /* Reduce margin */
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 480px) {
+    .block, .block5, .block1, .block2, .block3, .block4 {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items */
+    }
+  
+    .name {
+      width: 100%;
+      margin-left: 0;
+      text-align: center; /* Center the name text */
+    }
+  
+    .bottom {
+      width: 100%; /* Take full width */
+      margin-top: 50px;
+    }
+  
+    .btn1 {
+      font-size: 14px; /* Smaller button text */
+      padding: 8px 16px; /* Adjust button padding */
+    }
+  
+    .icon2 {
+      width: 40px; /* Smaller icon size */
+      height: 40px;
+      margin-top: 3px; /* Reduce margin */
+    }
+  }

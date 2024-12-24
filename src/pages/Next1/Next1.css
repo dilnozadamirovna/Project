@@ -26,3 +26,45 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     margin-top: 80px;
 }
+@media (max-width: 768px) {
+    .t1 {
+        margin-left: 20px;  /* Reduced margin for smaller screens */
+        margin-top: 50px;  /* Adjusted top margin */
+    }
+
+    .t1 h3 {
+        font-size: 24px;  /* Smaller font size for h3 */
+    }
+
+    .t1 h1 {
+        font-size: 45px;  /* Smaller font size for h1 */
+    }
+
+    .blue1 {
+        font-size: 16px;  /* Adjust button font size */
+        padding: 10px 20px;  /* Reduced padding */
+        margin-top: 40px;  /* Adjusted top margin */
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    .t1 {
+        margin-left: 10px;  /* Further reduce left margin */
+        margin-top: 30px;  /* Adjust top margin */
+    }
+
+    .t1 h3 {
+        font-size: 20px;  /* Even smaller font size for h3 */
+    }
+
+    .t1 h1 {
+        font-size: 36px;  /* Even smaller font size for h1 */
+    }
+
+    .blue1 {
+        font-size: 14px;  /* Further adjust button font size */
+        padding: 8px 16px;  /* Adjust padding */
+        margin-top: 30px;  /* Adjust margin for mobile */
+    }
+}

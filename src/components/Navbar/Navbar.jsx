@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
 
       {/* Burger Menu */}
-      <div className="burger-menu" onClick={toggleMenu}>
+      <div className="burger-menu" onClick={toggleMenu} aria-label="Toggle Navigation">
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
@@ -27,9 +27,9 @@ export default function Navbar() {
       {/* Navigation Links */}
       <div className={`nav-container ${menuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><NavLink className="link" to="/about" onClick={toggleMenu}>Главная</NavLink></li>
-          <li><NavLink className="link" to="/trip" onClick={toggleMenu}>Экскурсия</NavLink></li>
-          <li><NavLink className="link" to="/personal" onClick={toggleMenu}>Личный кабинет</NavLink></li>
+          <li><NavLink className="link" to="/" onClick={toggleMenu} activeClassName="active-link">Главная</NavLink></li>
+          <li><NavLink className="link" to="/trip" onClick={toggleMenu} activeClassName="active-link">Экскурсия</NavLink></li>
+          <li><NavLink className="link" to="/personal" onClick={toggleMenu} activeClassName="active-link">Личный кабинет</NavLink></li>
         </ul>
       </div>
     </div>

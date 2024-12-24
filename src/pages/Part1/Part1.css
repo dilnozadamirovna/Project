@@ -9,3 +9,25 @@
     margin-left: 200px;
     font-size: 60px;
 }
+@media (max-width: 768px) {
+    .pa {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .our {
+        margin-left: 50px; /* Reduce left margin on smaller screens */
+        font-size: 40px;   /* Reduce font size for smaller screens */
+    }
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 480px) {
+    .pa {
+        height: 100px; /* Adjust height further for mobile screens */
+    }
+
+    .our {
+        margin-left: 20px; /* Further reduce left margin */
+        font-size: 30px;   /* Further reduce font size for mobile */
+    }
+}

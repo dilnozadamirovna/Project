@@ -78,4 +78,53 @@
   .show-button:hover {
     background: linear-gradient(to right, #005bbf, #009ea3);
   }
-  
+  @media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .tab {
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .filter {
+        width: 100%;
+    }
+
+    .show-button {
+        width: 100%;
+        padding: 12px 0;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    .tap-navigation {
+        padding: 15px;
+    }
+
+    .tabs {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .tab {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .filters {
+        gap: 10px;
+    }
+
+    .show-button {
+        padding: 10px;
+        font-size: 12px;
+    }
+}

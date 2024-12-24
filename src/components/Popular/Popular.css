@@ -100,3 +100,70 @@
   .nav-button:hover{
     color: #007acc;
   }
+  @media (max-width: 768px) {
+    .carousel-wrapper {
+      padding: 10px;
+    }
+  
+    .carousel {
+      gap: 10px;
+    }
+  
+    .carousel-card {
+      flex: 0 0 300px; /* Decrease card size */
+      height: 400px; /* Adjust height */
+    }
+  
+    .card-title {
+      font-size: 16px;
+    }
+  
+    .card-duration {
+      font-size: 12px;
+    }
+  
+    .details-button {
+      font-size: 12px;
+    }
+  
+    .nav-button {
+      font-size: 30px; /* Decrease size for smaller screens */
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 480px) {
+    .carousel-wrapper {
+      margin-top: 150px;
+      padding: 5px;
+    }
+  
+    .carousel {
+      gap: 5px; /* Smaller gap for mobile */
+    }
+  
+    .carousel-card {
+      flex: 0 0 100%; /* Cards take full width */
+      height: 300px; /* Adjust height */
+    }
+  
+    .card-title {
+      font-size: 14px;
+    }
+  
+    .card-duration {
+      font-size: 10px;
+    }
+  
+    .details-button {
+      font-size: 10px;
+    }
+  
+    .nav-button {
+      font-size: 24px; /* Even smaller for mobile */
+    }
+  
+    .a {
+      font-size: 8px; /* Decrease text size */
+    }
+  }

@@ -1,65 +1,123 @@
+/* Base Styles */
 .carousel-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-position: absolute;
-top: 550px;
-right:0;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+  top: 550px;
+  right: 0;
+  overflow: hidden;
+}
 
+.swiper-container {
+  margin-top: 20px;
+}
+
+.video-slide video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.corner-video {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bottom-video {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.right-video {
+  top: 20%;
+  right: 10px;
+}
+
+/* Media Queries */
+
+/* Small screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .carousel-container {
+      max-width: 100%;
+      top: 400px;
+      right: 0;
   }
-  
-  .swiper-container {
-    margin-top: 20px;
-  }
-  
-  .video-slide video {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
- 
+
   .swiper-button-prev,
   .swiper-button-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    width: 40px;
-    height: 40px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    cursor: pointer;
+      width: 30px;
+      height: 30px;
   }
-  
-  .swiper-button-prev {
-    left: 10px;
-  }
-  
-  .swiper-button-next {
-    right: 10px;
-  }
-  
+
   .corner-video {
-    position: absolute;
-    width: 250px;
-    height: 150px;
-    border-radius: 8px;
-    overflow: hidden;
+      width: 200px;
+      height: 120px;
   }
-  
-  .bottom-video {
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+}
+
+/* Medium screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .carousel-container {
+      max-width: 90%;
+      top: 450px;
   }
-  
-  .right-video {
-    top: 20%;
-    right: 10px;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+      width: 35px;
+      height: 35px;
   }
-  
+
+  .corner-video {
+      width: 220px;
+      height: 130px;
+  }
+}
+
+/* Large screens (min-width: 1025px) */
+@media (min-width: 1025px) {
+  .carousel-container {
+      max-width: 600px;
+      top: 550px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+      width: 40px;
+      height: 40px;
+  }
+
+  .corner-video {
+      width: 250px;
+      height: 150px;
+  }
+}

@@ -95,4 +95,106 @@
     color: #777;
     margin-top: 5px;
   }
-  
+  @media (max-width: 768px) {
+    .travel-calendar-container {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .image-section {
+        width: 100%;
+    }
+
+    .background-image {
+        width: 100%;
+    }
+
+    .calendar-section {
+        position: relative;
+        top: auto;
+        transform: none;
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .calendar-title {
+        font-size: 16px;
+    }
+
+    .calendar-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .calendar-month {
+        font-size: 14px;
+    }
+
+    .calendar-grid {
+        grid-template-columns: repeat(5, 1fr); /* Fewer columns for smaller screens */
+    }
+
+    .calendar-day {
+        font-size: 12px;
+    }
+
+    .calendar-date {
+        font-size: 12px;
+    }
+
+    .calendar-time {
+        font-size: 9px;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    .travel-calendar-container {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .image-section {
+        width: 100%;
+    }
+
+    .background-image {
+        width: 100%;
+    }
+
+    .calendar-section {
+        width: 100%;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .calendar-title {
+        font-size: 14px;
+    }
+
+    .calendar-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .calendar-month {
+        font-size: 12px;
+    }
+
+    .calendar-grid {
+        grid-template-columns: repeat(4, 1fr); /* Even fewer columns */
+    }
+
+    .calendar-day {
+        font-size: 10px;
+    }
+
+    .calendar-date {
+        font-size: 10px;
+    }
+
+    .calendar-time {
+        font-size: 8px;
+    }
+}
