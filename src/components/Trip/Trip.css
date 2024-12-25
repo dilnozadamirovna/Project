@@ -92,6 +92,9 @@
       height: 50px; 
       margin-top: 5px; /* Reduce margin */
     }
+    .trip{
+        margin-top: 200px;
+    }
   }
   
   /* For Mobile Devices */

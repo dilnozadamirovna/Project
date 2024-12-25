@@ -68,8 +68,8 @@
 @media (max-width: 600px) {
   .carousel-container {
       max-width: 100%;
-      top: 400px;
-      right: 0;
+      top: 500px;
+      left: 0px;
   }
 
   .swiper-button-prev,
@@ -79,8 +79,8 @@
   }
 
   .corner-video {
-      width: 200px;
-      height: 120px;
+      width: 100px;
+      height: 60px;
   }
 }
 
@@ -88,7 +88,7 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .carousel-container {
       max-width: 90%;
-      top: 450px;
+      top: 550px;
   }
 
   .swiper-button-prev,

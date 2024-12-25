@@ -134,7 +134,7 @@
   /* For Mobile Devices */
   @media (max-width: 480px) {
     .carousel-wrapper {
-      margin-top: 150px;
+      margin-top: 0px;
       padding: 5px;
     }
   

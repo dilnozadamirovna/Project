@@ -80,42 +80,45 @@ a{
     }
 
     .icon1 {
-        margin-top: 50px;
+        margin-top: 10px;
+        display: flex;
+        margin: 10px;
+        margin-left: 50px;
     }
 
     a {
-        margin-right: 0;
+        margin-right: 10px;
     }
 
     .text {
-        margin-left: 0;
+        margin-left: 30px;
         text-align: center;
     }
 
     .h11 {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
 
     .h12 {
         font-size: 32px;
         position: relative;
-        top: 0;
-        left: 0;
+        top: 30px;
+        left: 60px;
         text-align: center;
     }
 
     .h13 {
-        font-size: 48px;
+        font-size: 38px;
         position: relative;
-        top: 0;
+        top: 0px;
         left: 0;
         text-align: center;
     }
 
     .blue {
-        margin-top: 50px;
-        margin-left: 0;
+        margin-top: 30px;
+        margin-left: 20px;
         padding: 10px 20px;
         font-size: 16px;
     }
