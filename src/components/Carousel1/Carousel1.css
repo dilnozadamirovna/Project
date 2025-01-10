@@ -86,7 +86,7 @@
 @media (max-width: 768px) {
   .carousel-container {
     max-width: 100%; /* Make the carousel take the full width on smaller screens */
-    top: 750px; /* Adjust positioning for mobile */
+    top: 550px; /* Adjust positioning for mobile */
     right: 0;
   }
 
