@@ -68,7 +68,7 @@
 @media (max-width: 600px) {
   .carousel-container {
       max-width: 100%;
-      top: 500px;
+      top: 600px;
       left: 0px;
   }
 
@@ -83,6 +83,41 @@
       height: 60px;
   }
 }
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 100%; /* Make the carousel take the full width on smaller screens */
+    top: 750px; /* Adjust positioning for mobile */
+    right: 0;
+  }
+
+  .video-slide video {
+    border-radius: 4px; /* Reduce the border radius for smaller screens */
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 30px; /* Smaller buttons for mobile */
+    height: 30px;
+    font-size: 14px; /* Adjust icon size for smaller buttons */
+  }
+
+  .corner-video {
+    width: 200px; /* Smaller video dimensions for mobile */
+    height: 120px;
+  }
+
+  .bottom-video {
+    bottom: 5px; /* Adjust position for smaller screens */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .right-video {
+    top: 10%;
+    right: 5px; /* Adjust spacing for smaller screens */
+  }
+}
+
 
 /* Medium screens (601px to 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
