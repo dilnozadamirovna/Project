@@ -125,4 +125,7 @@
       height: 40px;
       margin-top: 3px; /* Reduce margin */
     }
+    .trip{
+      margin-top: 250px;
+    }
   }
