@@ -30,4 +30,7 @@
         margin-left: 20px; /* Further reduce left margin */
         font-size: 30px;   /* Further reduce font size for mobile */
     }
+    .h1{
+        margin-top: 100px;
+    }
 }

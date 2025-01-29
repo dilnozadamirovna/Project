@@ -43,7 +43,7 @@
     .txt {
         width: 520px;
         height: auto;
-        position: relative;
+        position: absolute;
         top: 10px;
         left: 0;
         background-color: rgba(237, 237, 237, 0.9); /* Slight transparency for text box */
