@@ -101,7 +101,10 @@ width: 100%;
 
     .imgOne {
         position: absolute;
-        width: 210px;
+        width: 200px;
+    }
+    .one{
+        width: 200px;
     }
     .imgTwo{
         display: none;

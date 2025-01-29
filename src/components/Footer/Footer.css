@@ -82,24 +82,24 @@
     }
 
     .footer-logo img {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
     .footer-logo{
-      width: 10px;
-      height: 10px;
+      width: 25px;
+      height: 25px;
     }
 
     .footer-links ul li,
     .footer-contacts ul li,
     .footer-social ul li {
-        font-size: 10px;
+        font-size: 8px;
         margin-bottom: 8px;
     }
 
     .footer-links ul li a,
     .footer-social ul li a {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .footer-social ul li {
