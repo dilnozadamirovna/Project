@@ -40,15 +40,15 @@ export default function TabNavigation() {
       <div className="tab-content">
         {activeTab === "busTour" && <div><div className="filters">
         <div className="filter">
-          <span className="icon">📍</span>
+          <span className="iconP">📍</span>
           <input type="text" placeholder="Абхазия" />
         </div>
         <div className="filter">
-          <span className="icon">📅</span>
+          <span className="iconP">📅</span>
           <input type="date" />
         </div>
         <div className="filter">
-          <span className="icon">👤</span>
+          <span className="iconP">👤</span>
           <input type="number" placeholder="5 человек" />
         </div>
         <button className="show-button">Показать</button>

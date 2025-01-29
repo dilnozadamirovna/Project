@@ -18,21 +18,21 @@ const Next2 = () => {
       {/* Info Cards */}
       <div className="info-cards">
         <div className="info-card">
-          <span className="icon">💳</span>
+          <span className="iconN">💳</span>
           <div>
             <h3>1 618 ₽</h3>
             <p>Взрослый билет</p>
           </div>
         </div>
         <div className="info-card">
-          <span className="icon">💳</span>
+          <span className="iconN">💳</span>
           <div>
             <h3>1 412 ₽</h3>
             <p>Детский билет</p>
           </div>
         </div>
         <div className="info-card">
-          <span className="icon">⏰</span>
+          <span className="iconN">⏰</span>
           <div>
             <h3>12 часов</h3>
             <p>Продолжительность</p>

@@ -41,7 +41,7 @@
     text-align: center;
   }
   
-  .info-card .icon {
+  .info-card .iconN {
     background: #ffd700;
     color: #fff;
     font-size: 24px;
@@ -111,7 +111,7 @@
         padding: 12px;
     }
 
-    .info-card .icon {
+    .info-card .iconN {
         font-size: 20px;  /* Smaller icon size */
         line-height: 36px;
         height: 36px;
