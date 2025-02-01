@@ -67,7 +67,7 @@
 /* Small screens (max-width: 600px) */
 @media (max-width: 480px) {
   .carousel-container {
-      width: 380px;
+      width: 340px;
       top: 600px;
       right: 0px;
   }
