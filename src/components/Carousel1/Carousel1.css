@@ -67,7 +67,7 @@
 /* Small screens (max-width: 600px) */
 @media (max-width: 480px) {
   .carousel-container {
-      max-width: 100%;
+      max-width: 460px;
       top: 600px;
       left: 0px;
   }
@@ -79,8 +79,8 @@
   }
 
   .corner-video {
-      width: 100px;
-      height: 60px;
+      width: 80px;
+      height: 40px;
   }
 }
 @media (max-width: 768px) {
