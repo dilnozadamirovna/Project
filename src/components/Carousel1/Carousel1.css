@@ -67,10 +67,10 @@
 /* Small screens (max-width: 600px) */
 @media (max-width: 480px) {
   .carousel-container {
-      width: 380px;
+      width: 360px;
       top: 600px;
       right: 0px;
-      left: 10px;
+      left: 20px;
   }
 
   .swiper-button-prev,
