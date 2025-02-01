@@ -69,7 +69,7 @@
   .carousel-container {
       width: 380px;
       top: 600px;
-      left: 0px;
+      right: 0px;
   }
 
   .swiper-button-prev,
